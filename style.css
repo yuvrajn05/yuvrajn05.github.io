@@ -1,0 +1,438 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight:500;
+}
+
+.cover{
+    position: relative;
+    overflow: hidden;
+    height: 100px;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 0px;
+    font-size: 73px;
+    padding: 5px;
+    color: #f1f1f1;
+    font-variant: small-caps;
+}
+
+.navbar{
+    margin-left: 17px;
+    margin-right: 17px;
+    overflow: hidden;
+}
+
+.navbar ul{
+    list-style: none;
+    overflow: hidden;
+    display: inline;
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbtns{
+    color: black;
+    font-size: 116%;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.navbtns:hover{
+    color: white;background-color: black;
+}
+
+.navbtns:hover .sports{
+    display: block;
+}
+
+.sports{
+    background: #f4f4f4d1;
+    overflow: hidden;
+    height: 325px;
+    width: 155px;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 689px;
+    top: 153px;
+    box-shadow: 8px 8px 12px black;
+}
+
+.sports ul{
+    list-style: none;
+    overflow: hidden;
+    display: inline;
+}
+
+.sports li{
+    width: 100%;
+}
+
+.sportbtns{
+    color: black;
+    font-size: 116%;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.sportbtns:hover{
+    color: white;background-color: black;
+}
+
+form{
+    display: inline;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: 6px;
+}
+
+form input[type=text] {
+  padding: 11px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 199px;
+  background: #f1f1f1;
+}
+
+form input[type=text]:focus{
+    outline: none;
+}
+
+.searchbut {
+    float: left;
+    width: 48px;
+    padding: 6px;
+    background: black;
+    color: white;
+    font-size: 27px;
+    border: none;
+    cursor: pointer;
+  }
+
+.breakingnews{
+    padding: 10px;
+    background: hsl(0, 0%, 93%);
+}
+
+main{
+    margin-top: 25px;
+    margin-left: 17px;
+    margin-right: 17px;
+    height: 486px;
+}
+
+section{
+    padding-right: 1%;
+    float: left;
+    width: 78.5%;
+    height: 96%;
+}
+
+.news{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    overflow: hidden;
+    display: block;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 8px 8px 11px gray;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+section div{
+    padding: 16px;
+}
+
+section>div{
+    height: 100%;
+}
+
+.mainnews{
+    position: relative;
+    bottom: 184px;
+    color: white;
+    padding: 0;
+    padding-left: 3%;
+}
+
+.types{
+    padding: 0;
+    padding-left: 10px;
+}
+
+.types div{
+    background: black;
+    border-radius: 16px;
+    padding: 6px;
+    padding-right: 9px;
+    padding-left: 9px;
+
+    display: inline-block;
+}
+
+.types div + div{
+    margin-left: 5px;
+}
+
+.headline{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    padding: 10px;
+    text-shadow: 1px 1px black;
+    font-size: 130%;
+    height: 60px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.authorndate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    text-shadow: 1px 1px black;
+}
+
+.authorndate div{
+    padding: 8px;
+}
+
+.c1{
+    /* padding: 5px; */
+    width: 50%;
+    /* height: 435px; */
+    overflow: hidden;
+    float: left;
+    /* display: inline-block; */
+    /* border: 1px solid rgb(0, 30, 255); */
+}
+
+.c1 .headline{
+    font-size: 188%;
+    height: 92px;
+    padding: 16px;
+}
+
+.c1 .mainnews{
+    bottom: 200px;
+}
+
+.c1 .authorndate{
+    padding: 16px;
+}
+
+.c2{
+    /* padding: 5px; */
+    width: 25%;
+    /* height: 435px; */
+    overflow: hidden;
+    float: left;
+    /* display: inline-block; */
+    /* border: 1px solid rgb(0, 30, 255); */
+}
+
+.c3{
+    padding: 0;
+    width: 25%;
+    /* height: 435px; */
+    overflow: hidden;
+    float: left;
+    /* display: inline-block; */
+    /* border: 1px solid rgb(0, 30, 255); */
+}
+
+.c3a{
+    /* padding: 5px; */
+    height: 50%;
+    overflow: hidden;
+    /* display: inline-block; */
+    /* border: 1px solid rgb(0, 30, 255); */
+}
+
+.c3b{
+    /* padding: 5px; */
+    height: 50%;
+    overflow: hidden;
+    /* display: inline-block; */
+    /* border: 1px solid rgb(0, 30, 255); */
+}
+
+article{
+    float: right;
+    width: 21%;
+    height: 100%;
+    padding: 16px;
+    padding-right: 6px;
+}
+
+.tab{
+    width: 100%;
+    height: 13%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.tab button{
+    color: black;
+    background-color: white;
+    padding: 13px;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    float: left;
+    height: 100%;
+    font-size: 116%;
+}
+
+.tab button:hover{
+    color: white;
+    background-color: black;
+}
+
+.sidenews{
+    width: 103%;
+    height: 89%;
+    margin-top: 1%;
+    overflow: scroll;
+}
+
+.sidenews a{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid rgb(255, 0, 0); */
+    overflow: hidden;
+    display: block;
+    border-radius: 5px;
+    background: white;
+    padding: 7px;
+}
+
+.sidenews img{
+    width: 30%;
+    height: 100%;
+    border-radius: 5px;
+    float: left;
+}
+
+.sidenews a>div{
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding-left: 15px;
+    padding-top: 2px;
+    color: black;
+    font-weight:bold;
+    /* text-align: center; */
+}
+
+.sn{
+    width: 97%;
+    height: 25%;
+    padding: 4px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sidelines{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 60%;
+    font-size: 115%;
+}
+
+.sidedates{
+    font-weight: 300;
+    position: relative;
+    top: 7px;
+}
+
+.popup{
+    position: fixed;
+    top: 100px;
+    left: 314px;
+    height: 527px;
+    width: 906px;
+    box-shadow: 0px 0px 220px 80px black;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.allnews{
+    background-color: #00000040;;
+    height: 100px;
+    width: 100px;
+    align-self: baseline;
+    position: absolute;
+    bottom: 0%;
+    height: 63%;
+    width: 94%;
+    color: white;
+    padding: 3%;
+    box-shadow: 0px 0px 14px 28px #00000040;
+}
+
+.popup .types div{
+    display: block;
+    float: left;
+}
+
+.popup .headline{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 1px 1px black;
+    font-size: 188%;
+    padding: 16px;
+    height: 35%;
+}
+
+.popup .authorndate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    text-shadow: 1px 1px black;
+
+    float: right;
+}
+
+.content {
+    text-shadow: 1px 1px black;
+    font-size: 185%;
+    padding: 26px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    font-weight: 300;
+}
